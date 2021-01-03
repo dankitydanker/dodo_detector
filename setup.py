@@ -29,7 +29,7 @@ setup(
     author='Douglas De Rizzo Meneghetti',
     author_email='douglasrizzom@gmail.com',
     packages=find_packages(exclude=['contrib', 'docs']),
-    install_requires=['numpy', 'tqdm', 'imutils', 'opencv-python', 'tensorflow>=2.2.0'],
+    install_requires=['numpy', 'tqdm', 'imutils', 'tensorflow>=2.2.0'],
     extras_require={
         'testing': ['nose', 'pillow', 'matplotlib'],
         'docs': ['Sphinx', 'numpydoc', 'sphinx_autodoc_annotation', 'sphinx_rtd_theme']
